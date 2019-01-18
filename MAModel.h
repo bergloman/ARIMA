@@ -8,13 +8,13 @@
 #include <vector>
 #include "ARMAMath.h"
 
-class MAMoel{
+class MAMoel {
 private:
     std::vector<double> data;
     int p;
 
 public:
-    MAMoel(std::vector<double> data,int p);
+    MAMoel(std::vector<double> data, int p);
 
     std::vector<std::vector<double>> solveCoeOfMA();
 };
